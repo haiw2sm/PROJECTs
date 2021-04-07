@@ -1,0 +1,13 @@
+# created by virtualenv automatically
+# hide the test file, font.txt, main result csv file.
+data/*.txt
+data/result2.csv
+
+# hide the settings.py included main var and some func
+settings.py
+
+# hide the site-packages
+Lib/site-packages/*
+Lib/ProxyPool/*
+Lib/redis3/*
+
